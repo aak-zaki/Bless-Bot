@@ -52,8 +52,10 @@ This script automates network or node operations for Blockless Bless Network Bot
    - Enable `Developer mode` in the top right corner, then press `service worker`. A new tab will open.
    - Go to the `Network` tab, open the `Bless extension`, and log in to your account.
    - After logging in, search for a name matching your pubkey (e.g., `12D3xxxx`), open it, and copy the `pubkey` and `hardwareid`.
+
+4. If you want to use proxy, edit proxy.txt and add your proxy in there. Make sure total proxy is same with your total nodeid(pubkey):hardwareid that you put in id.txt
    
-4. Run the script:
+5. Run the script:
    ```bash
    python3 run.py
    ```
